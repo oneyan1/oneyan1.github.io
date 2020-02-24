@@ -1,92 +1,275 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Janucewicz</title>
+    <title>Portfolio</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-</head>
+  <link href="assets/css/app.css" rel="stylesheet"></head>
   <body>
-      <header class="header">
-          <div class="container">
-            <div class="row align-items-center">
-                <div class="col-6">
-                    <h1 class="header-title">Jan Janucewicz</h1>
-                </div>
-                
-                <div class="col-6">
-                    <div class="header-link__git">
-                        <a href="https://github.com/oneyan1" >
-                            <img class="github-logo__img" src="img/GitHub_Logo_White.png" alt="GitHub">
-                        </a>
-                    </div>
-                </div>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="section-block">
+          <div class="menu">
+            <div class="header-logo">
+              <img src="assets/img/logo.png" alt="logo">
             </div>
+            <nav class="header-menu">
+              <ul class="header-menu__list">
+                <li class="header-menu__item">
+                  <a href="#header">Home</a>
+                </li>
+                <li class="header-menu__item">
+                  <a href="#about">About</a>
+                </li>
+                <li class="header-menu__item">  
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li class="header-menu__item">
+                  <a href="#contacts">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header-mobileBtn">
+              <img src="assets/img/menu.svg" alt="">
+            </div>
+          </div>
+          <div class="main">
+            <h1 class="main-title">Jan Janucewicz</h1>
+            <div class="main-subtitle">Junior Front-end developer, student kierunku Informatyka Politechniki Białostockiej</div>
+          </div>
         </div>
-      </header>
-      <section class="section-main">
-        <div class="container">
-            <div class="row align-items-top">
-              <div class="col-4">
-                <div class="site-block">
-                  <img src="img/cardboard.png" alt="" class="site-block__img">
-                  <div class="site-block__button">
-                    <h4 class="site-block__title">
-                     Good cardboard
-                    </h4>
-                    <div class="site-block__desc">
-                      HTML5, CSS3, jQuery, Bootstrap 4, Flex-box, SASS,
-                      Slik-slider.Ready to download website.
-                    </div>
-                    <a href="http://janucewicz.ru/goodCardboard/" class="btn btn-light">Open</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-4">
-                  <div class="site-block">
-                  <img src="img/Advice.jpg" alt="" class="site-block__img">
-                  <div class="site-block__button">
-                    <h4 class="site-block__title">
-                     Advice
-                    </h4>
-                    <div class="site-block__desc">
-                     HTML5, CSS3, Bootstrap 4 and Flexbox. Work on this project is not finished
-                    </div>
-                    <a href="http://janucewicz.ru/advice/" class="btn btn-light">Open</a>
-                  </div>
-                </div>
-              </div>
-                <div class="col-4">
-                    <div class="site-block">
-                  <img src="img/book.png" alt="" class="site-block__img">
-                  <div class="site-block__button">
-                   <h4 class="site-block__title">
-                      "True queen"
-                   </h4>
-                    <div class="site-block__desc">
-                      HTML5, CSS3 only Bootstrap 4. This is an educational project.
-                    </div>
-                    <a href="http://janucewicz.ru/bootstrap_lesson/" class="btn btn-light">Open</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-              
-              </div>     
-    
-            </div>
+      </div>
+      <nav class="menu-mobile">
+        <div class="menu-mobile__close">&times;</div>
+        <ul class="menu-mobile__list">
+          <li class="menu-mobile__item">
+            <a href="#header">Home</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a href="#about">About</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="img-section">
+      <div class="container">
+        <div class="section-block">
+          <div class="img-section__picture"></div>
         </div>
-      </section>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-block">
+          <h2 class="section-title left">About</h2>
+          <div class="about-block">
+            <div class="about-text">
+              <p>
+                Hej! Jest bardzo mi miło że czytasz ten tekst.Muszę przedstawić się, nazywam się Jan
+              </p>
+              <p>
+                Jestem początkującym programistą, moją pasją jest  programowanie i projektowanie widoków stron internetowych oraz aplikacji mobilnych.
+              Pierwsze kroki w programowaniu stron internetowych zrobiłem w wieku 12 lat, kiedy spróbowałem zrobić bloga o grach komputerowych.
+              </p>
+              <p>
+                Obecnie moją ulubioną technologią jest JavaScript wraz z biblioteką React, nauką której  aktywne się zajmuje. Również ostatnio podoba mi się praca nad designem stron i aplikacji. 
+              </p>
+              <p>
+                Jestem studentem 3 roku kierunku Informatyki Politechniki Białostockiej.
+              </p>
+            </div>
+            <div class="about-points">
+              <div class="about-points__education">
+                <div class="about-points__title">Wykształcenie:</div>
+                <div class="about-points__subtitle">
+                  <span>Kurs „Web developer 12.0” | 2017 | GLO
+                    Academy</span>
+                  Kurs obejmował wiedzę z HTML5, CSS3, podstaw JS, WordPress
+                  <div class="about-points__subtitle">
+                    <span>Informatyka | 2017 - ciągłe | Politechnika
+                      Biłostocka
+                      </span>
+                  </div>
+                </div>
+              </div>
+              <div class="about-points__stack">
+                <div class="about-points__title">Technologie:</div>
+                <div class="about-points__subtitle">
+                  <span>Średniozaawansowane:</span>
+                   HTML5, CSS3, SASS, JavaScript, React, Java
+                   <div class="about-points__subtitle">
+                    <span>Podstawowy:</span>
+                    TypeScript, NodeJS, Webpack, Python, Django, Hibernate, OracleSQL, Android, Firebase 
+                   </div>
+                </div>
+              </div>
+              <div class="about-points__exp">
+                <div class="about-points__title">Doświadczenie:</div>
+                <div class="about-points__subtitle">
+                  <span>Freelance | 2019-2020 |</span>               
+                    Pełny cykl pracy nad stroną internetową
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-block">
+          <h2 class="section-title right">Portfolio</h2>
+          <div class="portfolio-windows">
+            <div class="portfolio-window portfolio-window__advice">
+              <div class="site-text">
+                <div class="site-name">Advice</div>
+                <div class="site-descr">Strona internetowa firmy finansowej</div>
+                <div class="site-stack">HTML5, CSS3+SASS, JS+jQuery, Webpack</div>
+                <div class="button-block">
+                  <a class="button" href="#">Strona</a>
+                  <a class="button" href="#">GitHub</a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-window__rightBlock">
+              <div class="portfolio-window portfolio-window__myjnia">
+                <div class="site-text">
+                  <div class="site-name">WWW-Myjnia</div>
+                  <div class="site-descr">Strona internetowa myjni samochodowej</div>
+                  <div class="site-stack">HTML5, CSS3+SASS, JS+jQuery, WordPress, Webpack</div>
+                  <div class="button-block">
+                    <a class="button" href="#">Strona</a>
+                    <!-- <a class="button" href="#">GitHub</a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-window__rightSubblock">
+                <div class="portfolio-window portfolio-window__yoga">
+                  <div class="site-text">
+                    <div class="site-name">Yoga-trip</div>
+                    <div class="site-descr">Strona internetowa agencji turystycznej, zrobiona do celów edukacyjnych</div>
+                    <div class="site-stack">HTML5, CSS3+SCSS, JS, Webpack</div>
+                    <div class="button-block">
+                      <a class="button" href="#">Strona</a>
+                      <a class="button" href="#">GitHub</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-window portfolio-window__misocial">
+                  <div class="site-text">
+                    <div class="site-name">Misocial</div>
+                    <div class="site-descr">Strona internetowa abstrakcyjnej firmy, zrobiona do celów edukacyjnych</div>
+                    <div class="site-stack">HTML5, CSS3(tylko flex-box), jQuery</div>
+                    <div class="button-block">
+                      <a class="button" href="#">Strona</a>
+                      <a class="button" href="#">GitHub</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-windows">
+            <div class="portfolio-window portfolio-window__cardboard">
+              <div class="site-text">
+                <div class="site-name">Good cardboard</div>
+                <div class="site-descr">Strona internetowa firmy handlowej, zrobiona do cełów edukacyjnych</div>
+                <div class="site-stack">HTML5, CSS3+SASS, JS+jQuery, Webpack</div>
+                <div class="button-block">
+                  <a class="button" href="#">Strona</a>
+                  <a class="button" href="#">GitHub</a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-window portfolio-window__stardb">
+              <div class="site-text">
+                <div class="site-name">Star Wars DB</div>
+                <div class="site-descr">Aplikacja webowa dla dostępu do bazy wiedzy o Star Wars</div>
+                <div class="site-stack">React</div>
+                <div class="button-block">
+                  <!-- <a class="button" href="#">Strona</a> -->
+                  <!-- <a class="button" href="#">GitHub</a> -->
+                  <div class="timer">Wkrotce</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <div class="section-block">
+          <h2 class="section-title left">Contacts</h2>
+          <div class="contacts-block">
+            <a href="#" class="contacts-item">
+              <div class="contacts-item__circle">
+                <img class="contacts-item__img" src="assets/img/mail.svg" alt="email">
+              </div>
+              <div class="contacts-item__title">Email</div>
+            </a>
+            <a href="#" class="contacts-item">
+              <div class="contacts-item__circle">
+                <img class="contacts-item__img" src="assets/img/linkedin.svg" alt="linkedIn">
+              </div>
+              <div class="contacts-item__title">LinkedIn</div>
+            </a>
+            <a href="#" class="contacts-item">
+              <div class="contacts-item__circle">
+                <img class="contacts-item__img" src="assets/img/github.svg" alt="github">
+              </div>
+              <div class="contacts-item__title">GitHub</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="section-block">
+          <div class="line"></div>
+          <div class="footer-block">
+            <div class="footer-descr">Design by DryThemes and Janucewicz</div>
+            <nav class="header-menu">
+              <ul class="header-menu__list">
+                <li class="header-menu__item">
+                  <a href="#header">Home</a>
+                </li>
+                <li class="header-menu__item">
+                  <a href="#about">About</a>
+                </li>
+                <li class="header-menu__item">  
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li class="header-menu__item">
+                  <a href="#contacts">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  <script type="text/javascript" src="assets/js/app.js"></script></body>
 </html>
